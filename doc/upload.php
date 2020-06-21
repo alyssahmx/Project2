@@ -29,6 +29,14 @@ function imgPath(){
 
 
 }
+
+function update(){
+if(isset($_GET['id'])) {
+    echo "Update";
+}else{
+    echo "Upload";
+    }
+
 function check(){
 $connection = mysqli_connect(DBHOST, DBUSER, DBPASS, DBNAME);
 
@@ -131,7 +139,7 @@ if (mysqli_connect_errno()) {
 
 
         <p>
-            <button type="submit">Upload
+            <button type="submit"><?php update();?>
             </button>
         </p>
 
