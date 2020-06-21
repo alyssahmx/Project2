@@ -33,6 +33,10 @@ section{
     padding: 25px 0;
 }    
 
+.notice{
+    color:red;
+}
+
 .title{
     float: left;
     position: relative;
