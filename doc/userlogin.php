@@ -77,7 +77,7 @@ function findID($iname){
             $_SESSION['UserName']=$_POST['username'];
         }
         else{
-            echo "login unsuccessful";
+             echo '<span class="notice">请重试，用户名或密码错误</span>';
         }
     }
 
