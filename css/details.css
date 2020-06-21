@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #000000;
+    background-color: #f8f8f8;
+    text-align: center;
+    height: 60px;
+}
+
+.div-left{
+    float: left;
+    margin: 10px;
+}
+
+.div-left a{
+    padding: 10px;
+    color: #767676;
+}
+
+a{
+    color: #767676;
+    text-decoration:none;
+}
+
+a:hover{
+    color: #000000;
+}  
+
+.div-left img{
+    position: relative;
+    top:10px;
+}
+
+.cover{
+    width: 700px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.current{
+    background-color: #cccaca;
+}
+
+.wrap {
+    margin-right: 20px;
+    margin-top: 10px;
+    color: #767676;
+    float: right;   
+}
+
+.wrap ul{
+    position: absolute;
+    display: none;
+    text-decoration: none;
+    background-color: #e7e7e7;
+    text-align: left;
+}
+
+.wrap li {
+    display: inline-block;
+    color:#767676;
+    text-align: left;
+}
+
+.wrap h3{
+    height: 40px;
+    padding-top: 10px;
+    color:#767676;
+}
+
+hr{
+	border-width:0;
+    height: 1px;
+    color:rgba(123, 123, 123, 0.2);
+    background-color:rgba(123, 123, 123, 0.2);
+}
+
+.contents{
+    margin: 30px 30px 0;
+    background-color: #f8f8f8;
+    border:1px solid #e7e7e7;
+    border-radius: 10px;
+    padding:20px 0;
+    overflow: auto;
+}
+
+.contents img{
+    float:left;
+    margin:20px;
+}
+
+.title{
+	color: #767676;
+    font-weight: bold;
+    margin: 0 0 10px 5px;
+}
+
+.name{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.name1{
+    font-size:26px;
+    font-weight: bold;
+    margin:0 10px;
+}
+
+.text1{
+    margin-left: 740px;
+    width: 30em;
+    padding: 30px 0;
+}
+
+#title2{
+    font-weight:bold;
+}
+
+.imagedetails{
+    height: 8em;
+    padding: 0.5em 0;
+    border: 1px solid #00000052;
+    text-align: center;
+    border-radius: 5px;
+    margin: 40px 0 20px;
+    background-color: white;
+}
+
+.likenumber{
+    height: 3em;
+    padding: 0.5em 0;
+    border: 1px solid #00000052;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+}
+
+p[class="number"]{
+    margin: 5px;
+    font-size: 26px;
+    color: red;
+    font-weight: bold;
+}
+
+.imagedetails p{
+    margin:10px 30px;
+    text-align: left;
+}
+
+.favor{
+    text-align: center;
+    margin: 30px 0 0;
+}
+
+#demo{
+    width: 10em;
+    height: 2em;
+    background-color: red;
+    border: 1px;
+    border-radius: 5px;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+} 
+
+button i{
+    font-size: 18px;
+    margin-right: 5px;
+}   
+
+.desc{
+    margin: 20px;
+    display: inline-flex;
+    line-height: 30px;
+}
+
+footer{
+  color: #767676;
+  text-align: center;
+  background-color: #f8f8f8;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.copyright img{
+    position: relative;
+    top: 10px;
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1200px) {
+    .desc {
+        margin: 70px 20px;
+    }
+
+    .contents img {
+        float: left;
+        margin: 20px;
+        width: 60%;
+    }
+
+    .text1 {
+        margin-left: 650px;
+        width: 18em;
+        padding: 30px 0;
+    }
+
+    footer{
+        position: relative;
+        top: 8em;
+    }
+
+    .name {
+        text-align: center;
+        margin: 100px 0 60px;
+    }
+
+
+}
+
+@media only screen and (min-width: 640px) and (max-width: 980px) {
+
+    .contents img {
+        float: left;
+        margin: 20px;
+        width: 60%;
+    }
+
+    .name {
+        text-align: center;
+        margin: 100px 0 60px;
+    }
+
+    .text1 {
+        margin-left: 460px;
+        width: 14em;
+        padding: 30px 0;
+    } 
+
+
+}    
+
+@media only screen and (max-width: 640px) {
+    .contents{
+        width: 100%;
+        display: inline-grid;
+        height: 100%;
+        margin:50px 0 20px;
+        overflow: none;
+    }
+    
+    .contents img{
+        width:90%;
+    }
+
+    footer{
+        font-size:x-small;
+    }
+
+    footer img{
+        width:40px;
+    }
+
+    .t {
+        position: absolute;
+        right: 1em;
+        bottom: 0;
+    }
+
+    .desc{
+        font-size:small;
+        margin:0 10px;
+    }
+
+    header img {
+        display: none;
+    }
+
+    .div-left{
+        margin:20px 0 0 10px;
+    }
+
+    .div-left a{
+        padding:0;
+    }
+
+    h3{
+        font-size:medium;
+    }
+
+    .wrap ul{
+        width:7em;
+        position: relative;
+        right:5px;
+    }
+
+    .text1 {
+    width: 20em;
+    padding: 30px 20px;
+    margin-left:0;
+    }
+}

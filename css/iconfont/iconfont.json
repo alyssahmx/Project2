@@ -1,0 +1,58 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "579285",
+      "name": "照片",
+      "font_class": "picture",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "693919",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "826147",
+      "name": "上传",
+      "font_class": "shangchuan",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "4266200",
+      "name": "最左",
+      "font_class": "zuizuo",
+      "unicode": "e722",
+      "unicode_decimal": 59170
+    },
+    {
+      "icon_id": "4266202",
+      "name": "最右",
+      "font_class": "zuiyou",
+      "unicode": "e723",
+      "unicode_decimal": 59171
+    },
+    {
+      "icon_id": "5327434",
+      "name": "登录",
+      "font_class": "denglu",
+      "unicode": "e6f0",
+      "unicode_decimal": 59120
+    },
+    {
+      "icon_id": "6844394",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    }
+  ]
+}
